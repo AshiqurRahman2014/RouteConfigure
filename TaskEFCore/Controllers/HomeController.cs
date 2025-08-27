@@ -41,11 +41,12 @@ namespace TaskEFCore.Controllers
         {
             return View();
         }
-        public IActionResult DeleteDoctor()
+      
+        public IActionResult DetailsDoctor()
         {
             return View();
         }
-        public IActionResult DetailsDoctor()
+        public IActionResult DoctorsList()
         {
             return View();
         }
@@ -59,11 +60,12 @@ namespace TaskEFCore.Controllers
         {
             return View();
         }
-        public IActionResult DeleteAccountant()
+    
+        public IActionResult DetalisAccountant()
         {
             return View();
         }
-        public IActionResult DetalisAccountant()
+        public IActionResult AccountantList()
         {
             return View();
         }
@@ -77,16 +79,25 @@ namespace TaskEFCore.Controllers
         {
             return View();
         }
-        public IActionResult DeleteChemist()
+      
+        public IActionResult DetailsChemist()
         {
             return View();
         }
-        public IActionResult DetailsChemist()
+        public IActionResult ChemistList()
         {
             return View();
         }
 
         public IActionResult AddCertificates()
+        {
+            return View();
+        }
+        public IActionResult Save()
+        {
+            return View();
+        }
+        public IActionResult Cancel()
         {
             return View();
         }
